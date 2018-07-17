@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8400F53E20FD8CC200930341 /* XZTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400F53D20FD8CC200930341 /* XZTestViewController.swift */; };
+		8400F53F20FD8CC200930341 /* XZTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400F53D20FD8CC200930341 /* XZTestViewController.swift */; };
 		84FFC35C20F898E40006B1AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC35B20F898E40006B1AE /* AppDelegate.swift */; };
 		84FFC35E20F898E40006B1AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC35D20F898E40006B1AE /* ViewController.swift */; };
 		84FFC36120F898E40006B1AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FFC35F20F898E40006B1AE /* Main.storyboard */; };
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8400F53D20FD8CC200930341 /* XZTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZTestViewController.swift; sourceTree = "<group>"; };
 		84FFC35820F898E40006B1AE /* XZStackView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZStackView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FFC35B20F898E40006B1AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84FFC35D20F898E40006B1AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +82,7 @@
 			children = (
 				84FFC35B20F898E40006B1AE /* AppDelegate.swift */,
 				84FFC35D20F898E40006B1AE /* ViewController.swift */,
+				8400F53D20FD8CC200930341 /* XZTestViewController.swift */,
 				84FFC35F20F898E40006B1AE /* Main.storyboard */,
 				84FFC36220F898E40006B1AE /* Assets.xcassets */,
 				84FFC36420F898E40006B1AE /* LaunchScreen.storyboard */,
@@ -200,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84FFC35E20F898E40006B1AE /* ViewController.swift in Sources */,
+				8400F53E20FD8CC200930341 /* XZTestViewController.swift in Sources */,
 				84FFC35C20F898E40006B1AE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8400F53F20FD8CC200930341 /* XZTestViewController.swift in Sources */,
 				84FFC37120F898E40006B1AE /* XZStackViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +362,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JM8C4U4YF7;
 				INFOPLIST_FILE = XZStackView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XZ.XZStackView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -371,6 +378,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JM8C4U4YF7;
 				INFOPLIST_FILE = XZStackView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XZ.XZStackView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
